@@ -12,10 +12,10 @@ class DefaultConfig:
     PORT = 3978
     APP_ID = os.environ.get("MicrosoftAppId", "")
     APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "")
-    LUIS_APP_ID = os.environ.get("LuisAppId", "a2f9c630-6d4c-46a8-be15-77ceb3be3171")
-    LUIS_API_KEY = os.environ.get("LuisAPIKey", "eb3741a4b3004f0fbbc5b9552465b4b6")
+    LUIS_APP_ID = os.environ.get("LuisAppId", "039dc8b4-511a-45a2-b144-c8fb30795859")
+    LUIS_API_KEY = os.environ.get("LuisAPIKey", "6bbb51e473e3469baddc39e0830e5af4")
     # LUIS endpoint host name, ie "westus.api.cognitive.microsoft.com"
-    LUIS_API_HOST_NAME = os.environ.get("LuisAPIHostName", "westus.api.cognitive.microsoft.com")
+    LUIS_API_HOST_NAME = os.environ.get("LuisAPIHostName", "mybotluisoc-authoring.cognitiveservices.azure.com")
     APPINSIGHTS_INSTRUMENTATION_KEY = os.environ.get(
-        "AppInsightsInstrumentationKey", "aba766fa-7667-434e-b4e4-b94803690524"
+        "AppInsightsInstrumentationKey", "b6dc2b99-2c28-4b4f-87fe-4fa764ed78eb"
     )

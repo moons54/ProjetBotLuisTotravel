@@ -17,7 +17,7 @@ class DefaultConfig:
     # LUIS endpoint host name, ie "westus.api.cognitive.microsoft.com"
     LUIS_API_HOST_NAME = os.environ.get("LuisAPIHostName", "westeurope.api.cognitive.microsoft.com")
     APPINSIGHTS_INSTRUMENTATION_KEY = os.environ.get(
-        "AppInsightsInstrumentationKey", "b6dc2b99-2c28-4b4f-87fe-4fa764ed78eb"
+        "AppInsightsInstrumentationKey", "2ba079d0-6495-476c-b009-536b5223fc5d"
     )
 
 

@@ -1,10 +1,10 @@
 from logging import log
 from azure.cognitiveservices.language.luis.runtime import LUISRuntimeClient
 from msrest.authentication import CognitiveServicesCredentials
-from config import TestConfig
+from config import DefaultConfig
 
 
-CONFIG = TestConfig()
+CONFIG = DefaultConfig()
 
 
 
